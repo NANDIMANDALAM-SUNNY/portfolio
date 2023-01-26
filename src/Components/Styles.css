@@ -1,0 +1,381 @@
+body {
+  background-size: 58px 58px;
+  background-color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 4;
+  text-shadow: 2px 3px grey;
+  left: 50%;
+  top: 50%;
+  font-family: "Clip";
+  text-transform: uppercase;
+  color: #1f456e;
+  font-size: 4em;
+  font-weight:bolder;
+  animation:example 1s infinite;
+}
+.typewriter h2 {
+  color: #1f456e;
+  font-family: cursive;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap; 
+  margin:30px 0 30px 300px; 
+  letter-spacing: .15em; 
+  animation: typing 4s steps(40) 3s 1 normal both, blink-caret 500ms steps(40) normal infinite;
+}
+.guviLOgo{
+  height: 100px;
+  border-radius: 50%;
+  width: 100px;
+}
+.skillSet{
+  margin:50px 0 50px 0;
+  display: grid;
+  grid-template-columns: auto auto ;
+}
+.skill-one,.skill-two{
+  border: #1f456e solid 2px; 
+  padding: 30px;
+  margin: 0 50px 0 50px;
+} 
+
+.skill-two{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.individual-skill{
+  margin-top: 20px;
+}
+.softskills{
+  height:50px;
+}
+.proCard{
+  border: 2px solid black;
+  margin: 20px;
+}
+.cards-body:hover{
+  cursor: pointer;
+}
+.contact,.project{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+h1{
+  text-align: center;
+}
+.blg{
+  margin: 20px;
+  height: 275px;
+  padding: 20px;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;  
+  text-align: center;
+  background-color: white;
+}
+img{
+  height: 150px;
+}
+.skill{
+  margin-top: 20px;
+  text-align: center;
+}
+h1{
+  margin-top: 20px;
+}
+.hieee{
+  display: none;
+}
+
+.contactImg{
+  height: 500px;
+  width: 100%;
+}
+.formContent{
+  border-left: 10px solid blue;
+  border-right: 10px solid green;
+  border-bottom : 10px solid yellow;
+  border-top : 15px solid red;
+  margin: 10px;
+}
+.line{
+  width: 100%;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 50px solid red;
+}
+.navItems{
+  color: white;
+}
+.navItems:hover{
+  color: white;
+}
+.anibutton{
+  animation: yesmove 5s 2;
+}
+.anotherParent{
+  display: none;
+}
+.send-button{
+  font-family: monospace;
+  color: #FAFAFA;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #FAFAFA;
+  background: #252525;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+  margin: 5px 0;
+}
+.send-button:active{
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+.expCard{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 300px;
+  height: 500px;
+  background: aliceblue;
+  border: #1f456e 10px solid;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.5s;
+  padding: 0 20px 20px 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.expCard .expContent{
+  opacity: 0;
+}
+.expCard:hover .expItems{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 30px;
+}
+.expCard:hover .smilePic{
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+}
+.expCard:hover .expContent
+{
+  opacity: 1;
+}
+.expCard:hover .guviLOgo{
+  display: none;
+}
+.blob{
+  height: 10px;
+  width: 75%;
+  border-radius: 0 0 30px 30px;
+  margin: 0 auto;
+  background-color: #4bb8ff;
+  visibility: visible;
+}
+.parent{
+  height: 425px;
+  width: 100%;
+  background-color: aliceblue;          
+}
+.anotherPrent{
+  display: none;
+}
+ .rows{
+  height: 35%;
+  background-color: pink;
+}
+.black{
+  background-color:black;
+}
+.white{
+  background-color: #4bb8ff;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ChessContent{
+font-size: 20px;
+opacity: 0;
+}
+.box:hover .ChessContent{
+  opacity: 1;
+}
+.box:hover{
+  background-color: aliceblue;
+  transform: scale(1.1);
+  border-radius: 10px;
+  cursor:move;
+}
+.expCard:hover{
+  width: 100%;
+  font-size: large;
+  line-height: 50px;
+}
+.expCard:hover p{
+  display: none;
+}
+.smilePic{
+  margin-top: 10px;
+  border: #4bb8ff 5px solid;
+  border-radius: 50%;
+}
+ul{
+  list-style-type: none;
+}
+@keyframes example {
+  from{
+    color:#1f456e;
+  }
+  to{
+    color: navy;
+  }
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 23em }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color:#1f456e; }
+}
+@keyframes yesmove {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }}
+@media screen and (max-width:412px) {
+  .home,.contact,.project{
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .typewriter h2 {
+    color: #1f456e;
+    font-family: cursive;
+    font-size: smaller;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap; 
+    margin:30px 0 30px 30px; 
+    letter-spacing: .1em; 
+    animation: typing 4s steps(40) 3s 1 normal both, blink-caret 500ms steps(40) normal infinite;
+  }
+  .skillSet{
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .rowSkills{
+    margin-top: 15px;
+  }
+  .skill-one,.skill-two{
+    border: #1f456e solid 2px; 
+    padding: 10px;
+    margin: 0 10px 0 10px;
+  } 
+  
+  .skill-two{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .individual-skill{
+    margin-top: 30px;
+  }
+  .formContent{
+    border: 15px solid #1f456e;
+    margin: 5px;
+  }
+  .sign,h1{
+    font-size: 25px;
+  }
+  .videobox{
+    height: fit-content;
+  
+  }
+  .topBottom{
+    width:auto;
+  }
+  .proCard{
+    border: 3px solid black;
+    margin: 20px;
+  }
+  .blg{
+    margin: 20px;
+    border: 2px solid gray;
+    text-align: center;
+    background-color: white;
+  }
+  .expCard{
+    width: auto;
+    height: 600px;
+    background: aliceblue;
+    border: #1f456e 10px solid;
+    border-radius: 10px;
+    transition: all 0.5s;
+    padding: 0 10px 10px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .hieee{
+    display: block;
+    height: 250px;
+    margin: 10px 30px 30px 30px;
+  }
+  .expCard .expContent{
+    opacity: 0;
+  }
+  .expCard:hover .expItems{
+    display: grid;
+    grid-template-columns: auto;
+
+  }
+  .expCard:hover .smilePic{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+  }
+  .expCard:hover .expContent
+  {
+    line-height: 30px;
+    text-align: left;
+
+    opacity: 1;
+  }
+  .expCard:hover .guviLOgo{
+    display: none;
+  }
+  .blob{
+    height: 10px;
+    width: 75%;
+    border-radius: 0 0 30px 30px;
+    margin: 0 auto;
+    background-color: #4bb8ff;
+    visibility: visible;
+  }
+  .smilePic{
+    height: 200px; width: 200px;
+    border: #4bb8ff 5px solid;
+    border-radius: 50%;
+  }
+  .parent{
+    display: none;
+  }
+  .anotherParent{
+  display: block;
+  }
+  .anotherParent{
+    height: 400px;
+    width: 100%;
+    background-color: #bebebe;
+  }
+  .anotherRows{
+    height: 50%;
+  }
+}
